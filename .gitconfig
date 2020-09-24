@@ -1,0 +1,20 @@
+[ghq]
+root = ~/Work
+
+[alias]
+co = checkout
+br = branch
+bra = branch -a
+ck = checkout
+cp = cherry-pick
+cm = commit -m
+df = diff --word-diff
+graph = log --pretty=format:'%Cgreen[%cd] %Cblue%h %Cred<%cn> %Creset%s' --date=short  --decorate --graph --branches --tags --remotes
+ps = push
+pso = push origin
+psom = push origin master
+s = status
+st = stash
+sl = stash list
+su = stash -u
+sp = stash pop
